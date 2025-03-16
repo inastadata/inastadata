@@ -26,15 +26,16 @@ jobs:
           echo "" >> README.md
           cat repos.json | jq -r '.[] | "- [\(.name)](\(.html_url))"' >> README.md
 
-      - name: Push Changes to GitHub
+      - name: Force Sync and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/inastadata/bumn_recruitment_2025.git
           
-          # Pull the latest changes to prevent push conflicts
-          git pull --rebase origin main
+          # Fetch latest changes and reset branch to match remote
+          git fetch origin main
+          git reset --hard origin/main
           
           git add README.md
           git commit -m "Updated pinned repositories" || echo "No changes to commit"
-          git push origin main
+          git push --force origin main
