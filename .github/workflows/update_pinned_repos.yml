@@ -30,7 +30,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/inastadata/bumn_recruitment_2025.git
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/inastadata/inastadata.git
           
           # Fetch latest changes and reset branch to match remote
           git fetch origin main
