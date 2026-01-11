@@ -5,14 +5,16 @@
 ---
 
 ### 📈 GitHub Stats
-<p align="center">
-  <img src="./profile-summary-card-output/default/0-profile-details.svg" width="45%" alt="Profile Details" />
-  <img src="./profile-summary-card-output/default/1-repos-per-language.svg" width="45%" alt="Languages" />
-</p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=inastadata&theme=radical&hide_border=true" alt="Current Streak" />
-</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=inastadata&show_icons=true&theme=radical&hide_border=true&bg_color=141321" alt="Inasta's GitHub Stats" />
+  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=inastadata&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=141321" alt="Inasta's Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=inastadata&layout=compact&theme=radical&hide_border=true&bg_color=141321" alt="Inasta's Top Languages" />
+</div>
 
 ---
 
