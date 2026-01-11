@@ -1,19 +1,18 @@
-# Welcome to my GitHub 👋
+# Hi there, I'm Inasta! 👋
 
 > Data, code, and analytics—one commit at a time.
 
 ---
 
 ### 📈 GitHub Stats
+<p align="center">
+  <img src="./profile-summary-card-output/default/0-profile-details.svg" width="45%" alt="Profile Details" />
+  <img src="./profile-summary-card-output/default/1-repos-per-language.svg" width="45%" alt="Languages" />
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=inastadata&show_icons=true&theme=radical&hide_border=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=inastadata&theme=radical&hide_border=true" height="150" alt="streak graph" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=inastadata&layout=compact&theme=radical&hide_border=true" height="150" alt="languages graph" />
-</div>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=inastadata&theme=radical&hide_border=true" alt="Current Streak" />
+</p>
 
 ---
 
